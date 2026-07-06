@@ -1,26 +1,45 @@
-1. What is a File System?
-A file system is the structure that Linux uses to organize, store, and manage files and folders like a tree.
+📝 Today's Technical Notes (Day 2)
+🐧 Part 1: Advanced Linux Navigation & Environment
+Today, I explored deeper into the Linux filesystem hierarchy and learned how to customize and control the terminal environment.
 
-2. What is the Root Directory?
-The root directory is the highest-level folder in Linux, represented by a forward slash. Everything starts from here.
+Key Concepts & Architecture
+The Linux Filesystem Structure: Unlike Windows, Linux uses a unified tree structure starting from the root directory (/).
 
-3. What is the Home Directory?
-The home directory is the user's personal workspace, often represented by the tilde symbol. It stores your personal files
+Crucial Directories Handled:
 
-Today I learned about the Linux file system.** In Linux, files and folders are organized like a tree. At the very top of this tree is
-the **root directory**, which is just `/`. Every path starts from there. Each user also has a **home directory**, usually something like `/home/username`,
-where personal files are stored.
-There are two main ways to describe where a file is. An **absolute path** shows the full address starting from `/`, 
-so it works no matter where you are—for example: `/home/hadis/Documents/file.txt`. A **relative path** starts from your **current directory**, 
-so it depends on where you are right now—for example: `Documents/file.txt`. To check where you are, you can use `pwd`, and to see what’s inside 
-a folder, you can use `ls`.I learned In Linux, everything is organized in a file system starting from the root directory. While an absolute path gives 
-the full address from root, a relative path only depends on my current directory, which is usually inside my home directory
+/root: The separate home directory reserved strictly for the System Administrator (Superuser).
 
-4. Why shouldn't I hire you?
-You shouldn’t hire me if you are only looking for a traditional IT administrator who maintains the status quo without any upgrades.
-I am driven by automation, optimization, and migrating forward with modern cloud technologies. If your company is completely resistant to
-technical growth, automation, or modern tools, I will not be the right fit for your team.
+/home: The standard location where regular users (like /home/hadis) store their personal files, configurations, and projects.
 
-5. Why should I hire you?
-Business-Focused Approach English: "You should hire me because I don’t just manage cloud infrastructure; 
-I focus on reducing your monthly operational costs
+/mnt: The mount point used to access external filesystems, such as accessing Windows drives (/mnt/c/) from inside WSL.
+
+Navigation Shortcut: Mastered using cd ~ to immediately jump back to the user's personal home directory from anywhere in the system.
+
+Environment Variables & Customization
+Variables ($): Learned how to store temporary data in memory using variables (e.g., NAME="Hadis").
+
+The echo Command: Used to print text or evaluate the value of variables in the terminal using the $ sign (e.g., echo $NAME).
+
+Practical Lab Executed
+Bash
+# Checking current location in the filesystem
+pwd
+
+# Navigating to the native Linux Home directory
+cd ~
+
+# Declaring a local variable and printing its value
+MY_ROLE="DevOps Engineer"
+echo $MY_ROLE
+
+# Navigating to the Windows Desktop via the mount directory
+cd /mnt/c/Users/Lenovo/Desktop
+📂 Part 2: GitHub & Professional Personal Branding
+Understanding the strategic importance of version control and maintaining an active open-source profile.
+
+Why GitHub Documentation Matters:
+Executive Presence: A well-documented GitHub profile acts as a living portfolio for international employers and cloud clients.
+
+Knowledge Retention: Writing clean markdown files ensures technical concepts are safely stored and easily retrievable.
+
+Tracking Progress: Committing daily tasks builds consistency and visually shows career growth over time.
