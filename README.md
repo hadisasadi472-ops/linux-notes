@@ -18,3 +18,14 @@ Today I learned
 - Home Directory
 - Absolute Path
 - Relative Path
+
+## Day 3
+
+Today I learned
+
+- Linux Permissions
+- chmod
+- chown
+- Owner
+- Group
+- Others
