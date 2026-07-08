@@ -30,8 +30,6 @@ Today I learned
 - Group
 - Others
 
-  # Linux Notes
-
 ## Day 4
 
 Today I learned
