@@ -29,3 +29,17 @@ Today I learned
 - Owner
 - Group
 - Others
+
+  # Linux Notes
+
+## Day 4
+
+Today I learned
+
+- File
+- Directory
+- mkdir
+- touch
+- cp
+- mv
+- rm
