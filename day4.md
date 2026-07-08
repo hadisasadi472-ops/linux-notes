@@ -1,7 +1,7 @@
-🐧 Part 1: Linux Core & File Management
+# 🐧 Part 1: Linux Core & File Management
 Today, I mastered how Linux structures its file system and manages essential file operations in real environments.
 
-Key Concepts
+# Key Concepts
 File: A collection of data stored on a disk under a specific name (e.g., text, source code, or configurations).
 Directory: A special type of file that acts as a container to organize and structure the file system hierarchy.
 mkdir (Make Directory): The command used to create one or more new, empty directories in a specified path.
@@ -10,7 +10,7 @@ cp (Copy): The command used to duplicate files or directories from a source path
 mv (Move / Rename): The command used to relocate a file to a new path or rename it within the file system.
 rm (Remove): The command used to permanently delete files or directories from the system.
 
-Practical Lab Executed Bash
+# Practical Lab Executed Bash
 Created a dedicated lab directory in the native Linux Home (~) environment
 
 mkdir Linux-Day4 && cd Linux-Day4
@@ -25,10 +25,10 @@ mv notes.txt project_files/   # Relocated the file to the project directory
 mv config.json settings.json  # Renamed the file in the current directory
 rm -rf project_files/         # Forcefully removed the directory and its contents
 
-💼 Part 2: Cloud Business & Security Strategies
+💼 # Part 2: Cloud Business & Security Strategies
 Understanding how to translate technical configurations into high-level business value for enterprise infrastructure.
 
-Executive Pitch: Why Care About System Downtime & High Availability?
+# Executive Pitch: Why Care About System Downtime & High Availability?
 When managing enterprise workloads, maintaining continuous uptime is the top priority to avoid catastrophic financial losses and protect the business identity. Here are the 5 core pillars of High Availability:
 
 Revenue Protection: Every minute of system downtime halts customer transactions, leading to an immediate and direct loss of revenue.
