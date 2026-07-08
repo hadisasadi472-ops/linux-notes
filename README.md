@@ -1,6 +1,6 @@
 # Linux Notes
 
-##Day 1
+## Day 1
 
 Today I learned:
 
