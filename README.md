@@ -53,8 +53,6 @@ Today I learned
 - mv
 - rm
 
-# Linux Notes
-
 ## Day 5
 
 Today I learned
