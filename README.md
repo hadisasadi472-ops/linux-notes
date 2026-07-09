@@ -8,7 +8,8 @@ Hands-on Linux learning journey.
 - ✅ Day 2
 - ✅ Day 3
 - ✅ Day 4
-- ⏳ Day 5
+- ✅ Day 5
+- ⏳ Day 6
 
 ## Day 1
 
@@ -51,3 +52,16 @@ Today I learned
 - cp
 - mv
 - rm
+
+# Linux Notes
+
+## Day 5
+
+Today I learned
+
+- Permissions
+- chmod
+- chown
+- Read
+- Write
+- Execute
