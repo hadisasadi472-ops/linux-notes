@@ -66,10 +66,11 @@ Today I learned
 ## Day 6
 
 Today I learned
-
-- File Management Operations
-- Troubleshooting Relative Paths
-- Standard vs. Recursive Copying (cp -r)
+- File Management
+- Troubleshooting Paths
+- cp vs mv
+- mkdir -p
+- rmdir
 - Directory vs. File Initialization (mkdir vs. touch)- Write
 - Execute
 
