@@ -61,5 +61,14 @@ Today I learned
 - chmod
 - chown
 - Read
-- Write
+
+## Day 6
+
+Today I learned
+
+- File Management Operations
+- Troubleshooting Relative Paths
+- Standard vs. Recursive Copying (cp -r)
+- Directory vs. File Initialization (mkdir vs. touch)- Write
 - Execute
+
